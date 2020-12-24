@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     //Var array to hold correct answers
-	var correctoptions = ["1920", "30 Days", "25%", "The Moon revolving around the Earth", "Thor's Day", "Ludacris", "Earth"];
+	var correctoptions = ["1652", "266 Thousand", "25 years", "10,100 female teachers", "110", "All of the Above", "All of the Above"];
 
 	//Var array to reference images]
 	var correctImage = ["a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg", "f.jpg", "g.jpg"];
@@ -51,24 +51,24 @@ $(document).ready(function() {
 
 	//Var Array for all option choices
 	const options = {
-        choices1: ["1720", "1869", "1920", "1820"],
-        choices2: ["6 months", "1 year", "30 Days", "3 months"],
-        choices3: ["5%", "2%", "10%", "25%"],
-        choices4: ["The Earth revolving around the Sun", "The Moon revolving around the Earth", "The Earth making a rotation", "The Sun making a rotation"],
-        choices5: ["Moon Day", "Sun Day", "Thor's Day", "Woden's day"],
-        choices6: ["Steve Jobs", "Mark Zuckerburg", "Ludacris", "Bill Gates"],
-        choices7: ["Saturn", "Jupiter", "Earth", "Uranus"]
+        choices1: ["1950", "1652", "200", "950"],
+        choices2: ["15 Thousand", "55 Thousand", "266 Thousand", "110 Thousand"],
+        choices3: ["5 years", "10 years", "25 years", "30 years"],
+        choices4: ["10,100 female teachers", "3,000 female teachers", "6,000 female teachers", "1,500 female teachers"],
+        choices5: ["50", "20", "110", "65"],
+        choices6: ["A Free Quality Education", "College Scholarships", "School and Safety Supplies", "All of the Above" ],
+        choices7: ["A U.S. Nonprofit", "Tax Deductible 501(c)(3) Nonprofit", "Builder of Schools in Pakistan", "All of the Above"],
       };
 
     //Var Array for all question choices
 	const questions = {
-        question1: ["What year did women get the right to vote in the U.S.?"],
-        question2: ["How long does it take for an aluminum can you throw away to be recycled and be back in your hand as a new drink?"],
-        question3: ["The U.S. holds what percent of the world's total prisoners?"],
-        question4: ["What is a month a measure of?"],
-        question5: ["What was the day Thursday named after?"],
-        question6: ["Who didn't drop out of college?"],
-        question7: ["On which planet does it NOT rain diamonds?"]
+        question1: ["How many Schools does TCF Operate as of 2021?"],
+        question2: ["How many students does TCF teach?"],
+        question3: ["How long has TCF been teaching Pakistani Children?"],
+        question4: ["How many female teachers does TCF employ?"],
+        question5: ["How many Towns/Cities in Pakistan does TCF have schools in?"],
+        question6: ["What does TCF provide to students?"],
+        question7: ["What is TCF-USA?"]
       };
 
     // Const to hold Array of Questions
