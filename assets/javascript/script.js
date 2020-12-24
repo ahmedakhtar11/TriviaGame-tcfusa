@@ -235,7 +235,7 @@ $(document).ready(function() {
 		$("#option0, #option1, #option2, #option3").hide();
 		imagedisplay();
 	    endgame();
-		setTimeout(nextquestion, 2000);
+		setTimeout(nextquestion, 5000);
 		unanswered++;
       }
   	}
