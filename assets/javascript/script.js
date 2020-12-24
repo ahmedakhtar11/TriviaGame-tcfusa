@@ -144,7 +144,7 @@ $(document).ready(function() {
 			$('#start').html("<h2>Correct! The Answer is: "+correctoptions[optionIndex]+"</h2>");
 			$("#option0, #option1, #option2, #option3").hide();
 			imagedisplay();
-			setTimeout(nextquestion, 2000);
+			setTimeout(nextquestion, 5000);
 			endgame();
 			totalscore++;
 		}
@@ -154,7 +154,7 @@ $(document).ready(function() {
 			$('#start').html("<h2>Incorrect Choice! The Correct Answer is: "+correctoptions[optionIndex]+"</h2>");
 			$("#option0, #option1, #option2, #option3").hide();
 			imagedisplay();
-			setTimeout(nextquestion, 2000);
+			setTimeout(nextquestion, 5000);
 			endgame();
 			wrongoption++;
 		}
